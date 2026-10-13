@@ -1,0 +1,44 @@
+{
+  "destinations": [
+    {
+      "city": "Reykjavik",
+      "country": "Iceland",
+      "iata": "KEF",
+      "lat": 63.99,
+      "lon": -22.62,
+      "region": "europe",
+      "schengen": true,
+      "demand": { "passengersPerDay": 150, "profile": "leisure" }
+    },
+    {
+      "city": "Tromsø",
+      "country": "Norway",
+      "iata": "TOS",
+      "lat": 69.68,
+      "lon": 18.92,
+      "region": "europe",
+      "schengen": true,
+      "demand": { "passengersPerDay": 90, "profile": "leisure" }
+    },
+    {
+      "city": "Oslo",
+      "country": "Norway",
+      "iata": "OSL",
+      "lat": 60.19,
+      "lon": 11.1,
+      "region": "europe",
+      "schengen": true,
+      "demand": { "passengersPerDay": 210, "profile": "business", "cargo": true }
+    },
+    {
+      "city": "Funchal",
+      "country": "Portugal",
+      "iata": "FNC",
+      "lat": 32.69,
+      "lon": -16.77,
+      "region": "europe",
+      "schengen": true,
+      "demand": { "passengersPerDay": 130, "profile": "leisure" }
+    }
+  ]
+}

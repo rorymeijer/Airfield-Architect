@@ -1,0 +1,19 @@
+{
+  "id": "northern-lights",
+  "name": "Northern Lights",
+  "author": "Airfield Architect",
+  "version": "1.0.0",
+  "gameVersion": "1.0.0",
+  "description": "Three Nordic airlines, a new aircraft type (the Boeing 727 trijet), four new destinations, a fresh TulipJet livery and the Northern Lights Season scenario.",
+  "content": {
+    "aircraft": ["aircraft.json"],
+    "airlines": ["airlines.json"],
+    "destinations": ["destinations.json"],
+    "liveries": ["liveries.json"],
+    "scenarios": ["scenarios.json"],
+    "translations": {
+      "nl": "translations/nl.json",
+      "de": "translations/de.json"
+    }
+  }
+}

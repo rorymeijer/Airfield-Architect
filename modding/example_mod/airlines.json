@@ -1,0 +1,26 @@
+{
+  "airlines": [
+    {
+      "code": "AN",
+      "name": "Aurora Nordic",
+      "type": "network",
+      "fleet": ["regionalJet", "b727"],
+      "homeRegion": "europe",
+      "livery": { "tail": "#1B998B", "body": "#F7F7F7", "accent": "#7A4DCC", "engines": "#5C6370", "pattern": "swoosh" }
+    },
+    {
+      "code": "SW",
+      "name": "Sunwave Holidays",
+      "type": "holiday",
+      "fleet": ["narrowbody", "widebody"],
+      "livery": { "tail": "#FF8C42", "body": "#FFF4E0", "accent": "#FF3C38", "pattern": "belly" }
+    },
+    {
+      "code": "FJ",
+      "name": "Fjord Freight",
+      "type": "cargo",
+      "fleet": ["narrowFreighter"],
+      "livery": { "tail": "#26547C", "body": "#26547C", "accent": "#FFD166", "pattern": "full" }
+    }
+  ]
+}

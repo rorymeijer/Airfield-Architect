@@ -1,0 +1,5 @@
+{
+  "liveries": [
+    { "airline": "TJ", "tail": "#E4572E", "body": "#FFFFFF", "accent": "#E4572E", "engines": "#E4572E", "pattern": "swoosh" }
+  ]
+}

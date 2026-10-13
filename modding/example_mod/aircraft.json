@@ -1,0 +1,21 @@
+{
+  "aircraft": [
+    {
+      "id": "b727",
+      "name": "Boeing 727-200",
+      "size": "medium",
+      "seats": 170,
+      "cargo": 2.5,
+      "wingspan": 32.9,
+      "length": 46.7,
+      "engines": 3,
+      "enginePosition": "rear",
+      "speed": 850,
+      "turnaround": 45,
+      "boarding": 35,
+      "basedOn": "b737",
+      "wingtip": "plain",
+      "proportions": { "body": 1.0, "engines": 1.1 }
+    }
+  ]
+}

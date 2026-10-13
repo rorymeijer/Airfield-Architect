@@ -1,0 +1,28 @@
+{
+  "scenarios": [
+    {
+      "id": "northern-lights-season",
+      "title": "Northern Lights Season",
+      "briefing": "Aurora Nordic opens winter routes to Tromsø and Reykjavik. Show them the airport can cope: 6,000 passengers in 14 days with at least 80% on time.",
+      "goal": "6,000 passengers in 14 days, 80% on time",
+      "days": 14,
+      "start": {
+        "cash": 600000,
+        "reputation": 60,
+        "contracts": [
+          {
+            "airline": "AN",
+            "fleet": "narrowbody",
+            "weeks": 4,
+            "slots": [
+              { "arrival": "08:10", "ground": 50, "destination": "TOS" },
+              { "arrival": "13:40", "ground": 50, "destination": "Reykjavik" }
+            ]
+          }
+        ]
+      },
+      "goals": { "passengers": 6000, "onTime": 0.8 },
+      "bonus": [{ "within": 10 }, { "cashKept": true }]
+    }
+  ]
+}
